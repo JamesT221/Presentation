@@ -42,10 +42,10 @@ export const db = mysql.createPool({
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
-  host: "wcit.cs.unh.edu",
-  user: "jdt1040",
-  password: "DrigU=vdott3",
-  database: "jdt1040",
+  host: "database-1.cluster-c12mk4s0y8o5.us-east-2.rds.amazonaws.com",
+  user: "admin",
+ // password: "DrigU=vdott3",
+  database: "database-1",
   connectTimeout: 30000,
 });
 
