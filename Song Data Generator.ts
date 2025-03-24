@@ -1,6 +1,6 @@
 import { join } from "https://deno.land/std/path/mod.ts";
 import { parse } from "https://deno.land/std@0.192.0/csv/mod.ts";
-import mysql from "/mysql2/promise";
+import mysql from "mysql2/promise";
 import { writeToPath } from "fast-csv";
 
 // Fetch song metadata from MusicBrainz API
